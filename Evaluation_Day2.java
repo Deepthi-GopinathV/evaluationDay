@@ -70,8 +70,9 @@ public class Evaluation_Day2 {
 		Select currSelect = new Select(driver.findElementByXPath("//select[@class='select currency-dropdown']"));
 		currSelect.selectByValue("INR");
 		Thread.sleep(2000);
-		driver.findElementById("devtest-toggler").click(); 
-		Thread.sleep(3000); 
+//		toggle is already enabled
+//		driver.findElementById("devtest-toggler").click(); 
+//		Thread.sleep(3000); 
 		File file1 = new File("C:\\Users\\Deepthi\\Downloads\\ExportedEstimate (1).xlsx");
 		if(file1.exists())
 		{
